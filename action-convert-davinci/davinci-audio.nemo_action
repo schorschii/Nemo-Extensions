@@ -1,0 +1,15 @@
+[Nemo Action]
+
+Name=DaVinci Audio Adjustment
+Name[de]=DaVinci Audioanpassung
+
+Comment=Customizes the audio track for use in DaVinci Resolve Studio.
+Comment[de]=Passt die Audiospur für die Verwendung in DaVinci Resolve Studio an.
+
+Exec=<davinci-audio.sh "%U">
+
+Mimetypes=video/*;
+Selection=notnone
+Icon-Name=audio-speakers-symbolic
+
+Conditions=dbus org.Cinnamon;

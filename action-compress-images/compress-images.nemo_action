@@ -1,0 +1,18 @@
+[Nemo Action]
+
+Name=Compress Image(s)
+Name[de]=Bild(er) komprimieren
+
+Comment=Compresses the selected images and saves it with suffix "_converted" (to send it via Email).
+Comment[de]=Komprimiert die gewählten Bilder und speichert sie mit dem Suffix "_converted" (zum Senden per E-Mail).
+
+Exec=<compress-images.py %U>
+#zenity --info --text '%U'
+
+Mimetypes=image/*;
+#Extensions=any;
+Selection=notnone
+Icon-Name=kdenlive-zoom-small
+#format-justify-fill
+
+Conditions=dbus org.Cinnamon;

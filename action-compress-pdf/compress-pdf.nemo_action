@@ -1,0 +1,15 @@
+[Nemo Action]
+
+Name=Compress PDF(s)
+Name[de]=PDF(s) komprimieren
+
+Comment=Compresses the selected PDF files and saves it with suffix ".converted" (to send it via Email).
+Comment[de]=Komprimiert die gewählten PDFs und speichert sie mit dem Suffix ".converted" (zum Senden per E-Mail).
+
+Exec=<compress-pdf.sh %U>
+
+Mimetypes=application/pdf;
+Selection=notnone
+Icon-Name=add-files-to-archive
+
+Conditions=dbus org.Cinnamon;
