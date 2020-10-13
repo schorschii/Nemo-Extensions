@@ -10,7 +10,7 @@ This repo bundles useful actions and scripts for the Nemo file manager.
 ![screenshot](action-convert-davinci/screenshot.png)
 
 ## Debian Package Installation (Debian/Ubuntu/Mint)
-Download and install the `.deb` package from [the latest release on Github](https://github.com/schorschii/nemo-action-compress-images/releases).
+Download and install the `.deb` package from [the latest release on Github](https://github.com/schorschii/nemo-extensions/releases).
 
 ## Support
 Found a bug? Great!  
