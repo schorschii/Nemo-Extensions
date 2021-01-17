@@ -4,10 +4,12 @@ This repo bundles useful actions and scripts for the Nemo file manager.
 * [Compress Images](action-compress-images)
 * [Compress PDF Files](action-compress-pdf)
 * [Convert Videos for DaVinci Resolve](action-convert-davinci)
+* [Send by Email](action-send-by-mail)
 
 ![screenshot](action-compress-images/screenshot.png)
 ![screenshot](action-compress-pdf/screenshot.png)
 ![screenshot](action-convert-davinci/screenshot.png)
+![screenshot](action-send-by-mail/screenshot.png)
 
 ## Debian Package Installation (Debian/Ubuntu/Mint)
 Download and install the `.deb` package from [the latest release on Github](https://github.com/schorschii/nemo-extensions/releases).
