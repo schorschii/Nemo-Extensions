@@ -1,9 +1,9 @@
 [Nemo Action]
-Name=Send by Email
-Name[de]=Per E-Mail versenden
+Name=Convert to .eml
+Name[de]=In .eml konvertieren
 Quote=double
-Exec=<msgconvert %U>
-Icon-Name=mail
+Exec=msgconvert %F
+Icon-Name=convertall
 Selection=NotNone
 Extensions=msg;
 Dependencies=msgconvert
