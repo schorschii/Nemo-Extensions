@@ -6,7 +6,8 @@ Name[de]=DaVinci Audioanpassung
 Comment=Customizes the audio track for use in DaVinci Resolve Studio.
 Comment[de]=Passt die Audiospur für die Verwendung in DaVinci Resolve Studio an.
 
-Exec=<davinci-audio.sh "%U">
+Quote=double
+Exec=<davinci-audio.sh %F>
 
 Mimetypes=video/*;
 Selection=notnone
