@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Send by Email
+Name[de]=Per E-Mail versenden
+Quote=double
+Exec=<msgconvert %U>
+Icon-Name=mail
+Selection=NotNone
+Extensions=msg;
+Dependencies=msgconvert

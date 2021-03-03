@@ -5,6 +5,7 @@ This repo bundles useful actions and scripts for the Nemo file manager.
 * [Compress PDF Files](action-compress-pdf)
 * [Convert Videos for DaVinci Resolve](action-convert-davinci)
 * [Send by Email](action-send-by-mail)
+* [Convert MSG Files](action-convert-msg)
 
 ![screenshot](action-compress-images/screenshot.png)
 ![screenshot](action-compress-pdf/screenshot.png)
