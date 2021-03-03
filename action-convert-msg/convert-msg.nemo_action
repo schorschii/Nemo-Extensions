@@ -2,7 +2,7 @@
 Name=Convert to .eml
 Name[de]=In .eml konvertieren
 Quote=double
-Exec=msgconvert %F
+Exec=bash -c 'cd %P && msgconvert %F'
 Icon-Name=convertall
 Selection=NotNone
 Extensions=msg;
