@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Unpack .msg
+Name[de]=.msg entpacken
+Quote=double
+Exec=bash -c 'cd %P && extract_msg %F'
+Icon-Name=extract-archive
+Selection=NotNone
+Extensions=msg;
+Dependencies=msgconvert
