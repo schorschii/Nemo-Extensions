@@ -180,3 +180,4 @@ Icon-Name=mail-attachment-symbolic
 Selection=NotNone
 Extensions=nodirs;
 Separator=/#/
+Dependencies=nautilus-sendto

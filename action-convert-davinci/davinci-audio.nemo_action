@@ -12,3 +12,5 @@ Exec=<davinci-audio.sh %F>
 Mimetypes=video/*;
 Selection=notnone
 Icon-Name=audio-speakers-symbolic
+
+Dependencies=ffmpeg

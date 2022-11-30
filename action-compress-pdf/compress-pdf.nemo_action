@@ -11,3 +11,5 @@ Exec=<compress-pdf.sh %U>
 Mimetypes=application/pdf;
 Selection=notnone
 Icon-Name=add-files-to-archive
+
+Dependencies=gs
