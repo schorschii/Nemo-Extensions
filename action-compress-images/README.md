@@ -1,7 +1,5 @@
 # Compress Image Action For Nemo File Manager
 This script adds an option to the nemo context menu for compressing image files (e.g. for sending it via Email). It is intentionally kept very simple.
-* licensed under the terms of the GPLv2 (see LICENSE.txt)
-* view source and fork me on [GitHub](https://github.com/schorschii/nemo-extensions)
 
 ![alt text](screenshot.png)
 
@@ -14,7 +12,5 @@ Download and install the `.deb` package from [the latest release on Github](http
 3. Ensure that `compress-images.py` is executable.
 4. Right-click on an image or multiple images, then select `Compress Image(s)`. This will compress the image and saves it with the suffix "_converted".
 
-## Support
-Found a bug? Great!  
-Please report it (preferably with a ready-to-use fix for it ;-) ) on GitHub.
-Questions, ideas and feature requests are also welcome.
+## More Nemo Extensions
+https://github.com/schorschii/nemo-extensions

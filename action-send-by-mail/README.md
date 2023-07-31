@@ -2,8 +2,6 @@
 Linux Mint removed the "Send by Mail" action from the Nemo file manager in January 2021 due to a security issue in the used binary `xdg-email` without providing an alternative to this popular feature.
 
 This Nemo action recreates the "Send by Mail" function using the `nautilus-send` command.
-* licensed under the terms of the GPLv2 (see LICENSE.txt)
-* view source and fork me on [GitHub](https://github.com/schorschii/nemo-extensions)
 
 ![alt text](screenshot.png)
 
@@ -16,7 +14,5 @@ Download and install the `.deb` package from [the latest release on Github](http
 3. Ensure that `send-by-mail.py` is executable.
 4. Right-click on any file, then select `Send by Email`. This will open a new message your default email program with this file attached.
 
-## Support
-Found a bug? Great!  
-Please report it (preferably with a ready-to-use fix for it ;-) ) on GitHub.
-Questions, ideas and feature requests are also welcome.
+## More Nemo Extensions
+https://github.com/schorschii/nemo-extensions

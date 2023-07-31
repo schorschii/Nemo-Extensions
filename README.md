@@ -22,3 +22,6 @@ https://github.com/linuxmint/nemo/blob/master/files/usr/share/nemo/actions/sampl
 Found a bug? Great!  
 Please report it (preferably with a ready-to-use fix for it ;-) ) on GitHub.
 Questions, ideas and feature requests are also welcome.
+
+Licensed under the terms of the GPLv2 (see LICENSE.txt).  
+View source and fork me on [GitHub](https://github.com/schorschii/nemo-extensions)
