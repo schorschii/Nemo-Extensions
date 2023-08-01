@@ -10,7 +10,7 @@ for var in "$@"; do
 	# decode urlencoded path
 	filePathUncoded=$(python3 -c "import sys; from urllib.parse import unquote; print(unquote(sys.stdin.read()));" <<< "$fileUrl")
 
-	# start ghost script for PDF converting
-	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$filePathUncoded.compressed.pdf" "$filePathUncoded"
+	# start ghostscript for PDF conversion
+	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$filePathUncoded.compressed.pdf" "$filePathUncoded" | zenity --progress --text "Please wait...\n$filePathUncoded" --auto-close --pulsate --auto-kill --no-cancel
 
 done
