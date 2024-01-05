@@ -1,13 +1,15 @@
 # Schorschii's Extensions for the Nemo File Manager
 This repo bundles useful actions and scripts for the Nemo file manager.
 
-**Attention: Linux Mint 21.3 introduced an official Nemo actions repository. Therefore, all of my Nemo extensions are transferred into the [cinnamon-spices-actions](https://github.com/linuxmint/cinnamon-spices-actions) repo.**
+**Attention: Linux Mint 21.3 introduced an official Nemo actions repository. All of my Nemo extensions are transferred into the [cinnamon-spices-actions](https://github.com/linuxmint/cinnamon-spices-actions) repo and will now be maintained there.** Therefore, my Nemo-Extensions repo is now archived.
 
-* [Compress Images](action-compress-images)
-* [Compress PDF Files](action-compress-pdf)
-* [Convert Videos for DaVinci Resolve](action-convert-davinci)
-* [Send by Email](action-send-by-mail)
-* [Convert MSG Files](action-convert-msg)
+**Please download the Nemo actions now directly from within the Linux Mint Actions Manager (can be found in the system settings) or from the Cinnamon Spices website. Consider the corresponding README.md and do not forget to install the necessary packages described there.**
 
-## Debian Package Installation (Debian/Ubuntu/Mint)
-Download and install the `.deb` package from [the latest release on Github](https://github.com/schorschii/nemo-extensions/releases).
+* [Compress Images](https://cinnamon-spices.linuxmint.com/actions/view/15)
+* [Compress PDF Files](https://cinnamon-spices.linuxmint.com/actions/view/16)
+* [Convert Videos for DaVinci Resolve](https://cinnamon-spices.linuxmint.com/actions/view/14)
+* [Send by Email](https://cinnamon-spices.linuxmint.com/actions/view/2) (not maintained by me anymore)
+* [Convert MSG Files](https://cinnamon-spices.linuxmint.com/actions/view/19)
+
+* [Calculate md5sum](https://cinnamon-spices.linuxmint.com/actions/view/17)
+* [Verify md5sum](https://cinnamon-spices.linuxmint.com/actions/view/18)
