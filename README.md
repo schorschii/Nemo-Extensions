@@ -12,5 +12,6 @@ This repo bundles useful actions and scripts for the Nemo file manager.
 * [Convert MSG Files](https://cinnamon-spices.linuxmint.com/actions/view/19)
 
 New actions, only available in the official Nemo actions repo:
+* [PDF OCR](https://cinnamon-spices.linuxmint.com/actions/view/20)
 * [Calculate md5sum](https://cinnamon-spices.linuxmint.com/actions/view/17)
 * [Verify md5sum](https://cinnamon-spices.linuxmint.com/actions/view/18)
